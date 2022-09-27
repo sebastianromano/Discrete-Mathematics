@@ -20,8 +20,9 @@ The exercises are written in *...* and can be found in the folder `Exercises`.
 ## Assignments
 The solutions are written in *...* and can be found in the folder `Assignments`.
 
+---
 
-Resources: 
+## Resources: 
 - [Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Writing mathematical expressions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 - [LaTeX project](https://www.latex-project.org/)
