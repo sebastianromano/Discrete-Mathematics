@@ -23,6 +23,7 @@ The solutions are written in *...* and can be found in the folder `Assignments`.
 ---
 
 ## Resources: 
+- [Peergrade.io for assignments](https://app.peergrade.io/courses/)
 - [Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Writing mathematical expressions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 - [LaTeX project](https://www.latex-project.org/)
