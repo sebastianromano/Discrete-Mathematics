@@ -2,26 +2,24 @@
 ## *This is a repo for the Discrete Mathematics course at IT-University of Copenhagen*
 
 The repository consists of the following: 
-- [ ] **Lecture notes**
-- [ ] **Exercises**
-- [ ] **Solutions**
-- [ ] **Exams**
-- [ ] **Solutions to exams**
+- **Lecture notes**
+- **Exercises**
+    - Exams
+        - Individual exams (2018, 2019, 2020 [...])
+    - Other exercises
+- **Assignments**
+    - Individual assignments (1, 2, 3 [...])
+
 
 ## Lecture notes
-The lecture notes are written in *Markdown* and can be found in the folder `lecture_notes`. 
+The lecture notes are written in *Markdown* and can be found in the folder `Lecture notes`. 
 
 ## Exercises
-The exercises are written in *...* and can be found in the folder `exercises`.
+The exercises are written in *...* and can be found in the folder `Exercises`.
 
-## Solutions
-The solutions are written in *...* and can be found in the folder `solutions`.
+## Assignments
+The solutions are written in *...* and can be found in the folder `Assignments`.
 
-## Exams
-The exams are written in *...* and can be found in the folder `exams`.
-
-## Solutions to exams
-The solutions to the exams are written in *...* and can be found in the folder `solutions_to_exams`.
 
 Resources: 
 - [Markdown](https://guides.github.com/features/mastering-markdown/)

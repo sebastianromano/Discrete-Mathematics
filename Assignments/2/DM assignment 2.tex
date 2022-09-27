@@ -1,0 +1,47 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts, amssymb}
+\newcommand\set[1]{\left\{#1\right\}}
+\newcommand\setcom[2]{\left\{#1~|~#2\right\}}
+\newcommand\compl[1]{{#1}^{c}}
+\newcommand\powerset[1]{{\mathcal{P}}\left(#1\right)}
+\newcommand{\N}{\mathbb{N}}
+
+\title{Discrete Mathematics\\
+Peergrade assignment 2}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+\item Let $A = \set{2, 4}$,  $B = \setcom{x \in \N}{(x \mid 28)}$\footnote{``$x$ such that $x$ divides 28''}, and $C = \set{1, 3, 5}$.
+Set the universal set to be $U = \N$ for $A, B, C$.\\
+Write each of the following sets in set-roster notation
+  (e.g. $A \cup C = \set{1, 2, 3, 4, 5}$):
+  \begin{enumerate}
+  \item $(A \cup C) \cap B$
+  \item $A \cup (C - B)$
+  \item $C \times A$
+  \item $\powerset{A}$
+  \item $\compl{B} \cap C$
+  \end{enumerate}
+\item Find $\gcd(6\, 256, 2\, 346)$ using the Euclidean algorithm. Give
+  the intermediate steps of the algorithm.\footnote{See page 253 in
+    our textbook. For example, to find $\gcd(18,12)$, the calculation
+    is: $\gcd(18,12) = \gcd(12,6) = \gcd(6,0) = 6$.}
+
+\item Prove the following statements:
+
+  \begin{enumerate}
+  \item For all integers $a$ and  $b$, if $a$ is odd and $b$ is odd, then $a+b$ is even.
+  \item For all integers $a, b$ and $c$, if $a \nmid b c$ then $a \nmid b$.
+  \end{enumerate}
+
+  Note: To prove (a), use the following facts:
+  \begin{itemize}
+    \item an integer $n$ is odd iff there is an integer $k$ such that $n = 2k + 1$
+    \item an integer $n$ is even iff there is an integer $k$ such that $n = 2k$
+  \end{itemize}
+  To get started on (b), it might help to look through chapter 4.7 of the book.
+\end{enumerate}
+\end{document}
