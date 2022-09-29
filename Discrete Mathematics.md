@@ -4,17 +4,17 @@ aliases: [DM]
 
 **[[ITU]]**
 [[Software Engineering|SE]] | **[[Discrete Mathematics|DM]]** | [[Introductory Programming|IP]]
-[[Discrete Mathematics - Lectures|Lectures]] | [[Discrete Mathematics - Assignments|Assignments]] | [[Discrete Mathematics - Exam|Exam]]
+[[DM Lectures|Lectures]] | [[DM Assignments|Assignments]] | [[DM Exam|Exam]]
 
 ---
 
 # Discrete Mathematics
 |             | Language                                    | Directory                                           |
 | ----------- | ------------------------------------------- | --------------------------------------------------- |
-| Lectures    | The lecture notes are written in *Markdown* | [[Discrete Mathematics - Lectures\|Lectures]]       |
-| Exercises   | The exercises are written in *...*          | [[Discrete Mathematics - Exercises\|Exercises]]     |
-| Assignments | The solutions are written in *...*          | [[Discrete Mathematics - Assignments\|Assignments]] |
-| Exam        | The exam paper is written in *...*          | [[Discrete Mathematics - Exam\|Exam]]               |
+| Lectures    | The lecture notes are written in *Markdown* | [[DM Lectures\|Lectures]]       |
+| Exercises   | The exercises are written in *...*          | [[DM Exercises\|Exercises]]     |
+| Assignments | The solutions are written in *...*          | [[DM Assignments\|Assignments]] |
+| Exam        | The exam paper is written in *...*          | [[DM Exam\|Exam]]               |
 
 ## Information
 - Lectures
