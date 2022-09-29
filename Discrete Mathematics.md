@@ -36,7 +36,7 @@ aliases: [DM]
 	- Drop by [StudyLab](https://learnit.itu.dk/course/view.php?id=3021173) for help
 - Mandatory activities
 	- There are 6 mandatory activities in [Peergrade](http://www.peergrade.io/) you have to pass at least 5 of these 6 activities to be eligible for the exam.
-	- Can be written pen and paper or [LaTeX](https://www.overleaf.com/), Markdown etc.
+	- Can be written pen and paper or [LaTeX](https://www.overleaf.com/), [Markdown](https://guides.github.com/features/mastering-markdown/), [GFmarkdown](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions), etc.
 		- You can get a second attempt on both kinds of activities (exercise assignments and feedback sessions) if you failed your first attempt. 
 		- To be eligible for a second attempt you must have made a credible first attempt (a blank submission does not count)
 - Exam
@@ -52,10 +52,10 @@ aliases: [DM]
 
 ---
 ## Additional resources
-- [Peergrade.io for assignments](https://app.peergrade.io/courses/)
-- [Markdown](https://guides.github.com/features/mastering-markdown/)
-- [Writing mathematical expressions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
+LaTeX
+- [[A quick guide to LaTeX.pdf]]
+- [[LaTex cheatsheet.pdf]]
 - [LaTeX project](https://www.latex-project.org/)
-- [Overleaf](https://www.overleaf.com/)
+Markdown
 - [Markdown Math in VSCode](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)
 	- E.g.: this sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
