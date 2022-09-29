@@ -67,3 +67,6 @@ Temporary Items
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Directories
+Assignments/gh-private/
