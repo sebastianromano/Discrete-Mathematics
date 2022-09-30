@@ -1,11 +1,7 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 2 - Propositional Logic
 
 ## Readings
-- [[Discrete Mathematics (book).pdf]]
+- [[Discrete Mathematics with Applications.pdf]]
 	- [ ] 2.1 - 2.3
 	- [ ] 3.1
 

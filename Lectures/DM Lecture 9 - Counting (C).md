@@ -1,11 +1,7 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 9 - Counting & Probability I
 
 ## Readings
-- [[Discrete Mathematics (book).pdf]]
+- [[Discrete Mathematics with Applications.pdf]]
 	- [ ] 9.1 - 9.4
 
 ## Slides

@@ -1,11 +1,7 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 4 - Number Theory
 
 ## Readings
-- [[Discrete Mathematics (book).pdf]]
+- [[Discrete Mathematics with Applications.pdf]]
 	- [ ] 2.5, only subsections "Binary Representation of Numbers”, "Binary Addition and Subtraction”.
     - [ ] 4.4
     - [ ] 4.5, only subsections "The Quotient-Remainder Theorem”, "div and mod”

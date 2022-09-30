@@ -1,19 +1,13 @@
----
-aliases: [Assignments, assignments, assignment, assignment, submission, Submission]
+| **FUN**     | [[Introductory Programming\|IP]] | [[Software Engineering\|SE]]          | [[Discrete Mathematics\|DM]]          | [[Introduction to Database Systems\|IDBS]] | [[Algorithms and Data Structures\|ADS]] | [[How to make (almost) anything\|MAKE]] |
+|:----------- |:-------------------------------- |:------------------------------------- |:------------------------------------- |:------------------------------------------ |:--------------------------------------- |:--------------------------------------- |
+| **SPECIAL** | [[Mobile App Development\|MAD]]  | [[Applied Information Security\|AIS]] | [[Technical Interaction Design\|TID]] | [[Functional Programming\|FP]]             |                                         |                                         |
+| **PROJECT** | [[Research project\|RESEARCH]]   | [[Master thesis\|MASTER]]             |                                       |                                            |                                         |                                         |
+
+| [[DM Lectures\|Lectures]] | [[DM Exercises\|Exercises]] | [[DM Assignments\|Assignments]] | [[DM Exam\|Exam]] |
+| ------------------------- | --------------------------- | ------------------------------- | ----------------- |
+
 ---
 
-| **[[ITU]]**                  |                                     |                                  |
-| ---------------------------- | ----------------------------------- | -------------------------------- |
-| [[Software Engineering\|SE]] | **[[Discrete Mathematics\|DM]]**    | [[Introductory Programming\|IP]] |
-| [[DM Lectures\|Lectures]]    | **[[DM Assignments\|Assignments]]** | [[DM Exam\|Exam]]                |
+# DM Assignments
 
----
-==re
-## Discrete Mathematics - Assignments
-
-[[DM Assignment 1]]
-[[DM Assignment 2]]
-[[DM Assignment 3]]
-[[DM Assignment 4]]
-[[DM Assignment 5]]
-[[DM Assignment 6]]
+![[Discrete Mathematics#Overview]]

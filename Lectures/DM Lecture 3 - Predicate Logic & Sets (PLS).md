@@ -1,11 +1,7 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 3 - Predicate Logic & Sets
 
 ## Readings
-- [[Discrete Mathematics (book).pdf]]
+- [[Discrete Mathematics with Applications.pdf]]
 	- [ ] 3.2 - 3.4
 	- [ ] 4.1 & 4.2  
 	- [ ] 1.2

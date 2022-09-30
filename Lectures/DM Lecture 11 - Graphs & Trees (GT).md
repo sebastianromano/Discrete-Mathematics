@@ -1,11 +1,7 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 11 - Graphs & Trees
 
 ## Readings
-- [[Discrete Mathematics (book).pdf]]
+- [[Discrete Mathematics with Applications.pdf]]
 	- [ ] 1.4 "The Language of Graphs"
 	- [ ] 4.9 "The Handshake Theorem"
 	- [ ] 10.1 "Trails, Paths, and Circuits"

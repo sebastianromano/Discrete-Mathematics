@@ -1,7 +1,3 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 12 - Automata & Regular Expressions
 
 ## Readings

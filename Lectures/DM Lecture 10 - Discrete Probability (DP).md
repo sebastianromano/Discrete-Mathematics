@@ -1,11 +1,7 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 10 - Counting & Probability II
 
 ## Readings
-- [[Discrete Mathematics (book).pdf]]
+- [[Discrete Mathematics with Applications.pdf]]
 	- [ ] 9.5: Counting subsets of a set.
 	- [ ] 9.6: r-Combinations with repetition allowed.
 	- [ ] 9.8: Probability axioms and Expected value.

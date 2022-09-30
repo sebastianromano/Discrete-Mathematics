@@ -1,11 +1,7 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 6 - Induction
 
 ## Readings
-- [[Discrete Mathematics (book).pdf]]
+- [[Discrete Mathematics with Applications.pdf]]
 	- [ ] 5.2 - 5.4 (you only need to skim "The Well-Ordering Principle for the Integers" in Chapter 5.4)
     - [ ] 5.5 is _optional_ (read it if you want to know about applications of induction)
 

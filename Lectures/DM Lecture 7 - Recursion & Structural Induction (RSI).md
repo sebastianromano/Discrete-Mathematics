@@ -1,11 +1,7 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 7 - Recursion & Structural Induction
 
 ## Readings
-- [[Discrete Mathematics (book).pdf]]
+- [[Discrete Mathematics with Applications.pdf]]
 	- [ ] 5.6 "Defining Sequences Recursively"
 	- [ ] 5.7 "Solving Recurrence Relations by Iteration"
 	- [ ] 5.9 "General Recursive Definitions and Structural Induction"

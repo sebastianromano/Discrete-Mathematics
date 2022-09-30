@@ -1,7 +1,3 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 13 - Grammars & Decidability
 
 ## Readings

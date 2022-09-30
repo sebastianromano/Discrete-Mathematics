@@ -12,11 +12,17 @@
 | F               | 12    |     | 6   | 6   | 6     |     | 6   | 36     |
 | N               |       |     |     |     |       | 6   | 6   | 12     |
 
-## Focus on
-| imp | key | chapter                    |                          |                  |                      |
-| --- | --- | -------------------------- | ------------------------ | ---------------- | -------------------- |
-| 1   | L   | propositional (2)          | predicate logic (3)      | sequence (5)     | induction (5)        |
-| 2   | A   | automata (12)              | regular expressions (12) | grammars (rosen) | decidability (rosen) |
-| 3   | S   | sets (1, 6)                |                          |                  |                      |
-| 4   | CP  | counting & probability (9) |                          |                  |                      |
+This leads to the following... 
+
+## Focus
+| priority | key | chapter                              |                          |                  |                      |
+|:-------- |:--- |:------------------------------------ | ------------------------ | ---------------- | -------------------- |
+| 1        | L   | propositional (2)                    | predicate logic (3)      | sequence (5)     | induction (5)        |
+| 2        | A   | automata (12)                        | regular expressions (12) | grammars (rosen) | decidability (rosen) |
+| 3        | S   | sets (1, 6)                          |                          |                  |                      |
+| 4        | CP  | counting & probability (9)           |                          |                  |                      |
+| 5        | R   | relations (8)                        |                          |                  |                      |
+| 6        | G   | graphs & trees (1.3, 10)             |                          |                  |                      |
+| 7        | F   | functions (7)                        |                          |                  |                      |
+| 8        | N   | number theory (2.5, 4.5, 4.10, 8, 4) |                          |                  |                      |
 

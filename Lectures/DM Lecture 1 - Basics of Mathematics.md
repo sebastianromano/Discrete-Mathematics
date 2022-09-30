@@ -1,7 +1,3 @@
-[[Discrete Mathematics]]
-
----
-
 # DM Lecture 1 - Basic Mathematics
 
 ## Readings
