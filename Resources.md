@@ -1,0 +1,3 @@
+- https://github.com/rossant/awesome-math
+- https://github.com/mathjax/MathJax-src
+- https://github.com/kirel/detexify
