@@ -16,7 +16,9 @@ aliases: [DM]
 
 > [!todo]
 > Assignments
-> - [ ] Peergrade Feedback before tuesday!
+> - [x] Peergrade Feedback before tuesday!
+> - [ ] Peergrade Feedback: 1 missing - contact?
+> - [ ] Assignment 3 before weekend!
 
 ## Information
 |          | When                  | Where                                                      |
