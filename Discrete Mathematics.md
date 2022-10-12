@@ -15,10 +15,8 @@ aliases: [DM]
 # Discrete Mathematics
 
 > [!todo]
-> Assignments
-> - [x] Peergrade Feedback before tuesday!
-> - [ ] Peergrade Feedback: 1 missing - contact?
-> - [ ] Assignment 3 before weekend!
+> - [x] Assignment 3
+> - [ ] Feedback 3
 
 ## Information
 |          | When                  | Where                                                      |
@@ -28,7 +26,8 @@ aliases: [DM]
 
 ### Links
 - [LearnIT](https://learnit.itu.dk/course/view.php?id=3021345)
-- [Peergrade](https://app.peergrade.io/courses/)
+- [Peergrade](https://app.peergrade.io/login)
+- [Overleaf](https://www.overleaf.com)
 
 ### Course material
 - [[Discrete Mathematics with Applications.pdf]]
@@ -47,8 +46,8 @@ aliases: [DM]
 | 3       | [[2022-09-13]] | PLS   | <input type="checkbox"> | [[DM Lecture 3 - Predicate Logic & Sets (PLS)\|Predicate Logic & Sets]]                     | 3, 4.2, 6           |       | <input type="checkbox"> | [[DM Assignment 1\|Assignment 1]] | [[2022-09-13]] |
 | 4       | [[2022-09-20]] | NT    | <input type="checkbox"> | [[DM Lecture 4 - Number Theory (NT)\|Number Theory]]                                        | 2.5, 4.5, 4.10, 8,4 |       | <input type="checkbox"> | [[DM Assignment 1\|Feedback 1]]   | [[2022-09-20]] |
 | 5       | [[2022-09-27]] | FS    | <input type="checkbox"> | [[DM Lecture 5 - Functions & Sequences (FS)\|Functions & Sequences]]                        | 7, 5.1              |       | &check;                 | [[DM Assignment 2\|Assignment 2]] | [[2022-09-27]] |
-| 6       | [[2022-10-04]] | I     | <input type="checkbox"> | [[DM Lecture 6 - Induction (I)\|Induction]]                                                 | 5                   |       | <input type="checkbox"> | [[DM Assignment 2\|Feedback 2]]   | [[2022-10-04]] |
-| 7       | [[2022-10-11]] | RSI   | <input type="checkbox"> | [[DM Lecture 7 - Recursion & Structural Induction (RSI)\|Recursion & Structural Induction]] | 5                   |       | <input type="checkbox"> | [[DM Assignment 3\|Assignment 3]] | [[2022-10-11]] |
+| 6       | [[2022-10-04]] | I     | <input type="checkbox"> | [[DM Lecture 6 - Induction (I)\|Induction]]                                                 | 5                   |       | &check;                 | [[DM Assignment 2\|Feedback 2]]   | [[2022-10-04]] |
+| 7       | [[2022-10-11]] | RSI   | <input type="checkbox"> | [[DM Lecture 7 - Recursion & Structural Induction (RSI)\|Recursion & Structural Induction]] | 5                   |       | &check;                 | [[DM Assignment 3\|Assignment 3]] | [[2022-10-11]] |
 |         |                |       |                         |                                                                                             |                     |       |                         |                                   |                |
 | 8       | [[2022-10-25]] | R     | <input type="checkbox"> | [[DM Lecture 8 - Relations (R)\|Relations]]                                                 | 8                   |       | <input type="checkbox"> | [[DM Assignment 3\|Feedback 3]]   | [[2022-10-25]] |
 | 9       | [[2022-11-01]] | C     | <input type="checkbox"> | [[DM Lecture 9 - Counting (C)\|Counting]]                                                   | 9                   |       | <input type="checkbox"> | [[DM Assignment 4\|Assignment 4]] | [[2022-11-01]] |
