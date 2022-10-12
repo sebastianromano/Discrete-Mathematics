@@ -10,19 +10,19 @@
 
 # Assignment 3
 
-| Assignment              | Feedback                |
-| ----------------------- | ----------------------- |
-| <input type="checkbox"> | <input type="checkbox"> |
+| Assignment | Feedback                |
+| ---------- | ----------------------- |
+| &check;    | <input type="checkbox"> |
 
 ---
 
-## Assignment text
+## [[DM Assignment 3 - Description|Description]]
 
 ---
 
-## Solution
+## [[DM Assignment 3 - Solution|Solution]]
 
 ---
 
-## [[DM Assignment 3 - Extra]]
+## [[DM Assignment 3 - Extra|Extra]]
 
