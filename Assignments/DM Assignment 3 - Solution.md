@@ -92,7 +92,7 @@ $$f \circ f = 4n - 15$$
 ### Description
 **Let $a_k = 2 k - 5$ and $b_k = 2 - k$.**
 
-**Simplify each expression to only use a single summation ($\Sigma$) or product ($\Pi$) using the properties of summations and products listed below. List intermediate steps.**
+**Simplify each expression to only use a single summation ( $\sum$ ) or product ( $\prod$ ) using the properties of summations and products listed below. List intermediate steps.**
 
 $\begin{aligned} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{aligned}$
 
