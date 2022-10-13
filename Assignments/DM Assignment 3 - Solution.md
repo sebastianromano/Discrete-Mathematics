@@ -85,6 +85,9 @@ $$ = 2(2n - 5) - 5$$
 $$ = 4n - 10 - 5$$
 $$ = 4n - 15$$
 
+Thus, the explicit formula for the composition is the following:
+$$f \circ f = 4n - 15$$
+
 ## 2
 ### Description
 **Let $a_k = 2 k - 5$ and $b_k = 2 - k$.**
