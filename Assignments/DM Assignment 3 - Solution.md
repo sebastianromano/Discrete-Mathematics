@@ -100,7 +100,7 @@ $$f \circ f = 4n - 15$$
 ### Description
 **Let $a_k = 2 k - 5$ and $b_k = 2 - k$.**
 
-**Simplify each expression to only use a single summation ($\sum$) or product ($\prod$) using the properties of summations and products listed below. List intermediate steps.**
+**Simplify each expression to only use a single summation $\sum$ or product $\prod$ using the properties of summations and products listed below. List intermediate steps.**
 
 $$
 \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k
@@ -122,7 +122,7 @@ $$\eqalign{
 
 ---
 Example:
-*Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k$ could be done in the following way:*
+Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k$ could be done in the following way:
 
 $$\eqalign{
 \sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &= \sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) \hspace7ex &\text{by (substitution)} \\
@@ -134,6 +134,7 @@ $$\eqalign{
 
 ---
 ##### Solution (a)
+
 $$\eqalign{
 \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k &= \sum_{k=m}^{n} 2k - 5 - 3 \cdot \sum_{k=m}^{n} 2 - k \hspace7ex &\text{by (substitution)} \\
 &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -3 \cdot (2 - k) &\text{by (2)}\\
@@ -144,6 +145,7 @@ $$\eqalign{
 
 ---
 ##### Solution (b)
+
 $$\eqalign{
 \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k &= \prod_{k=m}^{n} 2k - 5 \cdot \prod_{k=m}^n 2 - k \hspace7ex &\text{by (substitution)} \\
 &= \prod_{k=m}^{n} (2k - 5) \cdot (2 - k) &\text{by (3)} \\
@@ -154,7 +156,7 @@ $$\eqalign{
 ### Description
 **Prove, using mathematical induction, that $3$ divides $n^3 + 5n - 6$ for all integers $n\geq 0$.**
 
-*Hint: You can use the fact that given $a \,| b$ and $a \,| c$, we can conclude $a \,| (b + c)$ for all integers $a,b,c$. Moreover, you can use the binomial theorem for exponent $3$, which states that $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$ for all real numbers $a, b$.*
+Hint: You can use the fact that given $a \,| b$ and $a \,| c$, we can conclude $a \,| (b + c)$ for all integers $a,b,c$. Moreover, you can use the binomial theorem for exponent $3$, which states that $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$ for all real numbers $a, b$.
 
 ##### Solution
 ...
