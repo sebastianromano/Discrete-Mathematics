@@ -7,18 +7,23 @@
 
 #### a) **List three elements that are in the range of $f$**
 ##### Solution
-$$f(2)=2*2-5$$
-$$=4-5$$
-$$=-1$$
+$$ \eqalign{
+f(2)&=2*2-5 \\
+&=4-5 \\
+&=-1 \\
+}$$
 
-$$f(3)=2*3-5$$
-$$=6-5$$
-$$=1$$
+$$ \eqalign{
+f(3)&=2*3-5 \\
+&=6-5 \\
+&=1 \\
+}$$
 
-$$f(4)=2*4-5$$
-$$=8-5$$
-$$=3$$
-
+$$ \eqalign{
+f(4)&=2*4-5 \\
+&=8-5 \\
+&=3 \\
+}$$
 
 The elements -1, 1 and 3 are in the range of $f$ following that $f$ is a function from $\mathbb{Z}$ (the set of all integers) to $\mathbb{Z}$.
 
@@ -26,7 +31,7 @@ The elements -1, 1 and 3 are in the range of $f$ following that $f$ is a functio
 ##### Solution
 If the function $f: \mathbb{Z} \rightarrow \mathbb{Z}$ is defined by the rule $f(n) = 2n - 5$ for each integer $n$, then $f$ is one-to-one.
 
-**Proof:** 
+**Proof:**
 
 Suppose $n_1$ and $n_2$ are integers such that $f(n_1) = f(n_2)$. 
 
@@ -46,7 +51,7 @@ $\square$
 **Definition of one-to-one:**
 
 A function $f$ from a set $X$ to a set $Y$ is one-to-one (or injective) if, and only if, for all elements $x_1, x_2 \in X$
-$$F(x_1) = F(x_2) \implies x_1 = x_2$$
+$F(x_1) = F(x_2) \implies x_1 = x_2$
 
 Symbolically:
 $F: X \rightarrow Y$ is one-to-one $\iff \forall x_1, x_2 \in X$, if $F(x_1) = F(x_2)$ then $x_1 = x_2$
@@ -80,11 +85,13 @@ $F: X \rightarrow Y$ is onto $\iff \forall y \in Y, \exists x \in X \text{ such 
 ##### Solution
 (Composing function $f$ with itself)
 
-$$(f \circ f)(n) = f(f(n))$$
-$$=f(2n - 5)$$
-$$=2(2n - 5) - 5$$
-$$=4n - 10 - 5$$
-$$=4n - 15$$
+$$\eqalign{
+(f \circ f)(n) &= f(f(n)) \\
+&= f(2n - 5) \\
+&= 2(2n - 5) - 5 \\
+&= 4n - 10 - 5 \\
+&= 4n - 15 \\
+}$$
 
 Thus, the explicit formula for the composition is the following:
 $$f \circ f = 4n - 15$$
@@ -93,7 +100,7 @@ $$f \circ f = 4n - 15$$
 ### Description
 **Let $a_k = 2 k - 5$ and $b_k = 2 - k$.**
 
-**Simplify each expression to only use a single summation ( $\sum$ ) or product ( $\prod$ ) using the properties of summations and products listed below. List intermediate steps.**
+**Simplify each expression to only use a single summation ($\sum$) or product ($\prod$) using the properties of summations and products listed below. List intermediate steps.**
 
 $\begin{align} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{align}$
 
@@ -109,41 +116,31 @@ If $a_m, a_{m+1}, a_{m+2}, \ldots$ and $b_m, b_{m+1}, b_{m+2}, \ldots$ are seque
 ---
 Example:
 *Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\begin{align} \sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k \end{align}$ could be done in the following way:*
-$$\begin{align} \sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &=\sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) \end{align}$$ by (substitution)
-
-$$\begin{align} =\sum_{k=m}^n k+\sum_{k=m}^n 2 \cdot(2 k+1) \end{align}$$ by (2)
-
-$$\begin{align} =\sum_{k=m}^n k+\sum_{k=m}^n(4 k+2) \end{align}$$
-by (algebraic simplification)
-
-$$\begin{align} =\sum_{k=m}^n(k+(4 k+2)) \end{align}$$
-by (1)
-
-$$\begin{align} =\sum_{k=m}^n(5 k+2) \end{align}$$
-by (algebraic simplification)
+$$\eqalign{
+\sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &= \sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) \hspace7ex &\text{by (substitution)} \\
+&=\sum_{k=m}^n k+\sum_{k=m}^n 2 \cdot(2 k+1) &\text{by (2)} \\
+&=\sum_{k=m}^n k+\sum_{k=m}^n(4 k+2) &\text{by (algebraic simplification)}\\
+&=\sum_{k=m}^n(k+(4 k+2)) &\text{by (1)}\\
+&=\sum_{k=m}^n(5 k+2) &\text{by (algebraic simplification)}\\
+}$$
 
 ---
-##### Solution
-$$\begin{align} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{align}$$
-by (substitution)
-$$\begin{align} &= \sum_{k=m}^{n} 2k - 5 - 3 \cdot \sum_{k=m}^{n} 2 - k \end{align}$$
-by (2)
-$$\begin{align} &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -3 \cdot (2 - k) \end{align}$$
-by (algebraic simplification)
-$$\begin{align} &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -6 + 3k \end{align}$$
-by (1)
-$$\begin{align} &= \sum_{k=m}^{n} (2k - 5 + 3k-6) \end{align}$$
-by (algebraic simplification)
-$$\begin{align} &= \sum_{k=m}^{n} 5k - 11 \end{align}$$
+##### Solution (a)
+$$\eqalign{
+\sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k &= \sum_{k=m}^{n} 2k - 5 - 3 \cdot \sum_{k=m}^{n} 2 - k \hspace7ex &\text{by (substitution)} \\
+&= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -3 \cdot (2 - k) &\text{by (2)}\\
+&= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -6 + 3k &\text{by (algebraic simplification)} \\
+&= \sum_{k=m}^{n} (2k - 5 + 3k-6) &\text{by (1)} \\
+&= \sum_{k=m}^{n} 5k - 11 &\text{by (algebraic simplification)}
+}$$
 
 ---
-$$\begin{align} \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k \end{align}$$
-by (substitution)
-$$\begin{align} &= \prod_{k=m}^{n} 2k - 5 \cdot \prod_{k=m}^n 2 - k \end{align}$$
-by (3)
-$$\begin{align} &= \prod_{k=m}^{n} (2k - 5) \cdot (2 - k) \end{align}$$
-by (algebraic simplification)
-$$\begin{align} &= \prod_{k=m}^{n} (9k-2k^2-10) \end{align}$$
+##### Solution (b)
+$$\eqalign{
+\prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k &= \prod_{k=m}^{n} 2k - 5 \cdot \prod_{k=m}^n 2 - k \hspace7ex &\text{by (substitution)} \\
+&= \prod_{k=m}^{n} (2k - 5) \cdot (2 - k) &\text{by (3)} \\
+&= \prod_{k=m}^{n} (9k-2k^2-10) &\text{by (algebraic simplification)}
+}$$
 
 ## 3
 ### Description
