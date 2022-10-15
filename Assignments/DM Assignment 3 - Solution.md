@@ -66,9 +66,9 @@ If the function $f: \mathbb{Z} \rightarrow \mathbb{Z}$ is defined by the rule $f
 The co-domain of $n$ is $\mathbb{Z}$, and $0 \in \mathbb{Z}$.
 But $f(n) \neq 0$ for any integer $n$.
 
-For if $f(n) = 0$, then $2n - 5 = 0$, which implies $2n = 5$, which implies $n = 5/2$
+For if $f(n) = 0$, then $2n - 5 = 0$, which implies $2n = 5$, which implies $n = \frac{5}{2}$
 
-But $5/2$ is not an integer. Hence there is no integer $n$ for which $f(n) = 0$, and thus $f$ is not onto.
+But $\frac{5}{2}$ is not an integer. Hence there is no integer $n$ for which $f(n) = 0$, and thus $f$ is not onto.
 
 $\square$
 
@@ -109,9 +109,11 @@ $\begin{align} \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k \end{align}$
 ---
 Theorem 5.1.1
 If $a_m, a_{m+1}, a_{m+2}, \ldots$ and $b_m, b_{m+1}, b_{m+2}, \ldots$ are sequences of real numbers and $c$ is any real number, then the following equations hold for any integer $n \geq m$ :
-1. $\begin{align} \sum_{k=m}^n a_k+\sum_{k=m}^n b_k=\sum_{k=m}^n\left(a_k+b_k\right) \end{align}$
-2. $\begin{align} c \cdot \sum_{k=m}^n a_k=\sum_{k=m}^n c \cdot a_k \quad \end{align}$ (generalized distributive law)
-3. $\begin{align} \left(\prod_{k=m}^n a_k\right) \cdot\left(\prod_{k=m}^n b_k\right)=\prod_{k=m}^n\left(a_k \cdot b_k\right) \end{align}$
+$\eqalign{
+&\text{1} \hspace3ex &\sum_{k=m}^n a_k + \sum_{k=m}^n b_k &= \sum_{k=m}^n \left(a_k+b_k \right) \\
+&\text{2} &c \cdot \sum_{k=m}^n a_k &= \sum_{k=m}^n c \cdot a_k \quad &\text{by (generalized distributive law)} \\
+&\text{3} &\left(\prod_{k=m}^n a_k\right) \cdot\left(\prod_{k=m}^n b_k\right) &= \prod_{k=m}^n \left(a_k \cdot b_k\right)
+}$
 
 ---
 Example:
