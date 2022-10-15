@@ -78,7 +78,7 @@ $\square$
 Let $F$ be a function from a set $X$ to a set $Y$. $F$ is onto (or surjective) if, and only if, given any element $y \in Y$, there exists an element $x \in X$ with the property $y = F(x)$.
 
 Symbolically:
-$$F: X \rightarrow Y$ is onto $\iff \forall y \in Y, \exists x \in X \text{ such that } F(x) = y$$
+$$F: X \rightarrow Y \text{ is onto } \iff \forall y \in Y, \exists x \in X \text{ such that } F(x) = y$$
 
 ---
 #### d) **Write an explicit formula for the composition $f \circ f$**
