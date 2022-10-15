@@ -19,6 +19,7 @@ $$f(4)=2*4-5$$
 $$=8-5$$
 $$=3$$
 
+
 The elements -1, 1 and 3 are in the range of $f$ following that $f$ is a function from $\mathbb{Z}$ (the set of all integers) to $\mathbb{Z}$.
 
 #### b) **Is $f$ one-to-one? Justify your answer**
@@ -106,14 +107,22 @@ If $a_m, a_{m+1}, a_{m+2}, \ldots$ and $b_m, b_{m+1}, b_{m+2}, \ldots$ are seque
 3. $\begin{aligned} \left(\prod_{k=m}^n a_k\right) \cdot\left(\prod_{k=m}^n b_k\right)=\prod_{k=m}^n\left(a_k \cdot b_k\right) \end{aligned}$
 
 ---
-*For instance, given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\begin{aligned} \sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k \end{aligned}$ could be done in the following way:*
+Example:
+*Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\begin{aligned} \sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k \end{aligned}$ could be done in the following way:*
+$$\begin{aligned} \sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &=\sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) \end{aligned}$$ by (substitution)
 
-$\begin{aligned} \sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &=\sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) --- by (substitution)\\
-&=\sum_{k=m}^n k+\sum_{k=m}^n 2 \cdot(2 k+1) --- by(2)\\
-&=\sum_{k=m}^n k+\sum_{k=m}^n(4 k+2) --- by(algebraic simplification)\\
-&=\sum_{k=m}^n(k+(4 k+2)) --- by (1)\\
-&=\sum_{k=m}^n(5 k+2) --- by (algebraic simplification)\end{aligned}\\$
+$$\begin{aligned} =\sum_{k=m}^n k+\sum_{k=m}^n 2 \cdot(2 k+1) \end{aligned}$$ by (2)
 
+$$\begin{aligned} =\sum_{k=m}^n k+\sum_{k=m}^n(4 k+2) \end{aligned}$$
+by (algebraic simplification)
+
+$$\begin{aligned} =\sum_{k=m}^n(k+(4 k+2)) \end{aligned}$$
+by (1)
+
+$$\begin{aligned} =\sum_{k=m}^n(5 k+2) \end{aligned}$$
+by (algebraic simplification)
+
+---
 ##### Solution
 $$\begin{aligned} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{aligned}$$
 by (substitution)
