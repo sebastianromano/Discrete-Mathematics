@@ -48,9 +48,9 @@ Since $\frac{9}{2}$ is not in $\mathbb{Z}$, and it is the only value $n$ for whi
 (d)
 $$\eqalign{
 f \circ f &= f(2n-5) \\
-& = 2(2n-5) -5 \\
-& = 4n-10-5 \\
-& = 4n-15 \\
+		&= 2(2n-5) -5 \\
+		&= 4n-10-5 \\
+		&= 4n-15 \\
 }$$
 
 ## 2
