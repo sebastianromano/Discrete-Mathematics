@@ -78,7 +78,7 @@ $\square$
 Let $F$ be a function from a set $X$ to a set $Y$. $F$ is onto (or surjective) if, and only if, given any element $y \in Y$, there exists an element $x \in X$ with the property $y = F(x)$.
 
 Symbolically:
-$F: X \rightarrow Y$ is onto $\iff \forall y \in Y, \exists x \in X \text{ such that } F(x) = y$
+$$F: X \rightarrow Y$ is onto $\iff \forall y \in Y, \exists x \in X \text{ such that } F(x) = y$$
 
 ---
 #### d) **Write an explicit formula for the composition $f \circ f$**
@@ -102,22 +102,28 @@ $$f \circ f = 4n - 15$$
 
 **Simplify each expression to only use a single summation ($\sum$) or product ($\prod$) using the properties of summations and products listed below. List intermediate steps.**
 
-$\begin{align} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{align}$
+$$
+\sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k
+$$
 
-$\begin{align} \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k \end{align}$
+$$
+\prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k
+$$
 
 ---
 Theorem 5.1.1
-If $a_m, a_{m+1}, a_{m+2}, \ldots$ and $b_m, b_{m+1}, b_{m+2}, \ldots$ are sequences of real numbers and $c$ is any real number, then the following equations hold for any integer $n \geq m$ :
-$\eqalign{
-&\text{1} \hspace3ex &\sum_{k=m}^n a_k + \sum_{k=m}^n b_k &= \sum_{k=m}^n \left(a_k+b_k \right) \\
-&\text{2} &c \cdot \sum_{k=m}^n a_k &= \sum_{k=m}^n c \cdot a_k \quad &\text{by (generalized distributive law)} \\
-&\text{3} &\left(\prod_{k=m}^n a_k\right) \cdot\left(\prod_{k=m}^n b_k\right) &= \prod_{k=m}^n \left(a_k \cdot b_k\right)
-}$
+If $a_m, a_{m+1}, a_{m+2}, \ldots$ and $b_m, b_{m+1}, b_{m+2}, \ldots$ are sequences of real numbers and $c$ is any real number, then the following equations hold for any integer $n \geq m$:
+
+$$\eqalign{
+&\sum_{k=m}^n a_k + \sum_{k=m}^n b_k &= \sum_{k=m}^n \left(a_k+b_k \right) \\
+&c \cdot \sum_{k=m}^n a_k &= \sum_{k=m}^n c \cdot a_k \quad \tag{by generalized distributive law} \\
+&\left(\prod_{k=m}^n a_k\right) \cdot\left(\prod_{k=m}^n b_k\right) &= \prod_{k=m}^n \left(a_k \cdot b_k\right)
+}$$
 
 ---
 Example:
-*Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\begin{align} \sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k \end{align}$ could be done in the following way:*
+*Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k$ could be done in the following way:*
+
 $$\eqalign{
 \sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &= \sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) \hspace7ex &\text{by (substitution)} \\
 &=\sum_{k=m}^n k+\sum_{k=m}^n 2 \cdot(2 k+1) &\text{by (2)} \\
