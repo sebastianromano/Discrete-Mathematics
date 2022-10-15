@@ -81,10 +81,10 @@ $F: X \rightarrow Y$ is onto $\iff \forall y \in Y, \exists x \in X \text{ such 
 (Composing function $f$ with itself)
 
 $$(f \circ f)(n) = f(f(n))$$
-$$= f(2n - 5)$$
-$$= 2(2n - 5) - 5$$
-$$= 4n - 10 - 5$$
-$$= 4n - 15$$
+$$=f(2n - 5)$$
+$$=2(2n - 5) - 5$$
+$$=4n - 10 - 5$$
+$$=4n - 15$$
 
 Thus, the explicit formula for the composition is the following:
 $$f \circ f = 4n - 15$$
