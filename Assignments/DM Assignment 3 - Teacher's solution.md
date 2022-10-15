@@ -46,11 +46,12 @@ n &= \frac{9}{2} \\
 Since $\frac{9}{2}$ is not in $\mathbb{Z}$, and it is the only value $n$ for which $f(n) = 4$, it is the case that for all $n\in\mathbb{Z}, f(n) \neq 4$. Therefore, there exists an element in the co-domain $y\in\mathbb{Z}$ such that for all $n\in\mathbb{Z}, f(n) \neq y$.
 
 (d)
+
 $$\eqalign{
-f \circ f &= f(2n-5) \\
-		&= 2(2n-5) -5 \\
-		&= 4n-10-5 \\
-		&= 4n-15 \\
+f \circ f &= f(2n-5)\\
+&= 2(2n-5) -5\\
+&= 4n-10-5\\
+&= 4n-15\\
 }$$
 
 ## 2
