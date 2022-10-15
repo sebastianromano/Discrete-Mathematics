@@ -24,5 +24,9 @@
 
 ---
 
+## [[DM Assignment 3 - Teacher's solution|Teacher's solution]]
+
+---
+
 ## [[DM Assignment 3 - Extra|Extra]]
 
