@@ -95,55 +95,55 @@ $$f \circ f = 4n - 15$$
 
 **Simplify each expression to only use a single summation ( $\sum$ ) or product ( $\prod$ ) using the properties of summations and products listed below. List intermediate steps.**
 
-$\begin{aligned} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{aligned}$
+$\begin{align} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{align}$
 
-$\begin{aligned} \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k \end{aligned}$
+$\begin{align} \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k \end{align}$
 
 ---
 Theorem 5.1.1
 If $a_m, a_{m+1}, a_{m+2}, \ldots$ and $b_m, b_{m+1}, b_{m+2}, \ldots$ are sequences of real numbers and $c$ is any real number, then the following equations hold for any integer $n \geq m$ :
-1. $\begin{aligned} \sum_{k=m}^n a_k+\sum_{k=m}^n b_k=\sum_{k=m}^n\left(a_k+b_k\right) \end{aligned}$
-2. $\begin{aligned} c \cdot \sum_{k=m}^n a_k=\sum_{k=m}^n c \cdot a_k \quad \end{aligned}$ (generalized distributive law)
-3. $\begin{aligned} \left(\prod_{k=m}^n a_k\right) \cdot\left(\prod_{k=m}^n b_k\right)=\prod_{k=m}^n\left(a_k \cdot b_k\right) \end{aligned}$
+1. $\begin{align} \sum_{k=m}^n a_k+\sum_{k=m}^n b_k=\sum_{k=m}^n\left(a_k+b_k\right) \end{align}$
+2. $\begin{align} c \cdot \sum_{k=m}^n a_k=\sum_{k=m}^n c \cdot a_k \quad \end{align}$ (generalized distributive law)
+3. $\begin{align} \left(\prod_{k=m}^n a_k\right) \cdot\left(\prod_{k=m}^n b_k\right)=\prod_{k=m}^n\left(a_k \cdot b_k\right) \end{align}$
 
 ---
 Example:
-*Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\begin{aligned} \sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k \end{aligned}$ could be done in the following way:*
-$$\begin{aligned} \sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &=\sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) \end{aligned}$$ by (substitution)
+*Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\begin{align} \sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k \end{align}$ could be done in the following way:*
+$$\begin{align} \sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &=\sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) \end{align}$$ by (substitution)
 
-$$\begin{aligned} =\sum_{k=m}^n k+\sum_{k=m}^n 2 \cdot(2 k+1) \end{aligned}$$ by (2)
+$$\begin{align} =\sum_{k=m}^n k+\sum_{k=m}^n 2 \cdot(2 k+1) \end{align}$$ by (2)
 
-$$\begin{aligned} =\sum_{k=m}^n k+\sum_{k=m}^n(4 k+2) \end{aligned}$$
+$$\begin{align} =\sum_{k=m}^n k+\sum_{k=m}^n(4 k+2) \end{align}$$
 by (algebraic simplification)
 
-$$\begin{aligned} =\sum_{k=m}^n(k+(4 k+2)) \end{aligned}$$
+$$\begin{align} =\sum_{k=m}^n(k+(4 k+2)) \end{align}$$
 by (1)
 
-$$\begin{aligned} =\sum_{k=m}^n(5 k+2) \end{aligned}$$
+$$\begin{align} =\sum_{k=m}^n(5 k+2) \end{align}$$
 by (algebraic simplification)
 
 ---
 ##### Solution
-$$\begin{aligned} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{aligned}$$
+$$\begin{align} \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k \end{align}$$
 by (substitution)
-$$\begin{aligned} &= \sum_{k=m}^{n} 2k - 5 - 3 \cdot \sum_{k=m}^{n} 2 - k \end{aligned}$$
+$$\begin{align} &= \sum_{k=m}^{n} 2k - 5 - 3 \cdot \sum_{k=m}^{n} 2 - k \end{align}$$
 by (2)
-$$\begin{aligned} &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -3 \cdot (2 - k) \end{aligned}$$
+$$\begin{align} &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -3 \cdot (2 - k) \end{align}$$
 by (algebraic simplification)
-$$\begin{aligned} &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -6 + 3k \end{aligned}$$
+$$\begin{align} &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -6 + 3k \end{align}$$
 by (1)
-$$\begin{aligned} &= \sum_{k=m}^{n} (2k - 5 + 3k-6) \end{aligned}$$
+$$\begin{align} &= \sum_{k=m}^{n} (2k - 5 + 3k-6) \end{align}$$
 by (algebraic simplification)
-$$\begin{aligned} &= \sum_{k=m}^{n} 5k - 11 \end{aligned}$$
+$$\begin{align} &= \sum_{k=m}^{n} 5k - 11 \end{align}$$
 
 ---
-$$\begin{aligned} \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k \end{aligned}$$
+$$\begin{align} \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k \end{align}$$
 by (substitution)
-$$\begin{aligned} &= \prod_{k=m}^{n} 2k - 5 \cdot \prod_{k=m}^n 2 - k \end{aligned}$$
+$$\begin{align} &= \prod_{k=m}^{n} 2k - 5 \cdot \prod_{k=m}^n 2 - k \end{align}$$
 by (3)
-$$\begin{aligned} &= \prod_{k=m}^{n} (2k - 5) \cdot (2 - k) \end{aligned}$$
+$$\begin{align} &= \prod_{k=m}^{n} (2k - 5) \cdot (2 - k) \end{align}$$
 by (algebraic simplification)
-$$\begin{aligned} &= \prod_{k=m}^{n} (9k-2k^2-10) \end{aligned}$$
+$$\begin{align} &= \prod_{k=m}^{n} (9k-2k^2-10) \end{align}$$
 
 ## 3
 ### Description
