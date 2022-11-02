@@ -22,3 +22,7 @@
 ## Slides from 2020
 - [[DM 1 - Slides (2020).pdf]]
 - [[DM 1 - Slides - Introduction (2020).pdf]]
+
+## Extra extra exercises
+- [ ] [Khan - Order of operations](https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-negative-numbers-multiply-and-divide/cc-7th-order-of-operations/v/introduction-to-order-of-operations)
+- [ ] 

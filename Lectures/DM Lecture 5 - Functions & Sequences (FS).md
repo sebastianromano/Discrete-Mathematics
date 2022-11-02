@@ -28,3 +28,6 @@
 ## 2020
 - [[slides 20.pdf]]
 - [[solution5.pdf]]
+
+## Extra extra exercises
+- [ ] [Khan - Explicit formulas for arithmetic sequences](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:sequences/x2f8bb11595b61c86:constructing-arithmetic-sequences/a/writing-explicit-formulas-for-arithmetic-sequences#)

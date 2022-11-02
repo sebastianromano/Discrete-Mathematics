@@ -15,8 +15,9 @@ aliases: [DM]
 # Discrete Mathematics
 
 > [!todo]
-> - [x] Assignment 3
-> - [ ] Feedback 3
+> - [x] Assignment 4: 2nd November 2022
+> - [ ] Peer- review: 9th November 2022
+> 
 
 ## Information
 |          | When                  | Where                                                      |
@@ -28,6 +29,8 @@ aliases: [DM]
 - [LearnIT](https://learnit.itu.dk/course/view.php?id=3021345)
 - [Peergrade](https://app.peergrade.io/login)
 - [Overleaf](https://www.overleaf.com)
+- [MathPix](https://mathpix.com)
+	- [Snip online](https://snip.mathpix.com)
 
 ### Course material
 - [[Discrete Mathematics with Applications.pdf]]
@@ -49,8 +52,8 @@ aliases: [DM]
 | 6       | [[2022-10-04]] | I     | <input type="checkbox"> | [[DM Lecture 6 - Induction (I)\|Induction]]                                                 | 5                   |       | &check;                 | [[DM Assignment 2\|Feedback 2]]   | [[2022-10-04]] |
 | 7       | [[2022-10-11]] | RSI   | <input type="checkbox"> | [[DM Lecture 7 - Recursion & Structural Induction (RSI)\|Recursion & Structural Induction]] | 5                   |       | &check;                 | [[DM Assignment 3\|Assignment 3]] | [[2022-10-11]] |
 |         |                |       |                         |                                                                                             |                     |       |                         |                                   |                |
-| 8       | [[2022-10-25]] | R     | <input type="checkbox"> | [[DM Lecture 8 - Relations (R)\|Relations]]                                                 | 8                   |       | <input type="checkbox"> | [[DM Assignment 3\|Feedback 3]]   | [[2022-10-25]] |
-| 9       | [[2022-11-01]] | C     | <input type="checkbox"> | [[DM Lecture 9 - Counting (C)\|Counting]]                                                   | 9                   |       | <input type="checkbox"> | [[DM Assignment 4\|Assignment 4]] | [[2022-11-01]] |
+| 8       | [[2022-10-25]] | R     | <input type="checkbox"> | [[DM Lecture 8 - Relations (R)\|Relations]]                                                 | 8                   |       | &check;                 | [[DM Assignment 3\|Feedback 3]]   | [[2022-10-25]] |
+| 9       | [[2022-11-01]] | C     | <input type="checkbox"> | [[DM Lecture 9 - Counting (C)\|Counting]]                                                   | 9                   |       | &check;                 | [[DM Assignment 4\|Assignment 4]] | [[2022-11-01]] |
 | 10      | [[2022-11-08]] | DP    | <input type="checkbox"> | [[DM Lecture 10 - Discrete Probability (DP)\|Discrete Probability]]                         | 9                   |       | <input type="checkbox"> | [[DM Assignment 4\|Feedback 4]]   | [[2022-11-08]] |
 | 11      | [[2022-11-15]] | GT    | <input type="checkbox"> | [[DM Lecture 11 - Graphs & Trees (GT)\|Graphs & Trees]]                                     | 1.4, 10             |       | <input type="checkbox"> | [[DM Assignment 5\|Assignment 5]] | [[2022-11-15]] |
 | 12      | [[2022-11-22]] | ARE   | <input type="checkbox"> | [[DM Lecture 12 - Automata & Regular Expressions (ARE)\|Automata & Regex]]                  | 12                  |       | <input type="checkbox"> | [[DM Assignment 5\|Feedback 5]]   | [[2022-11-22]] |

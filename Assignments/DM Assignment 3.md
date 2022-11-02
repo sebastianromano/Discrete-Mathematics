@@ -10,9 +10,9 @@
 
 # Assignment 3
 
-| Assignment | Feedback                |
-| ---------- | ----------------------- |
-| &check;    | <input type="checkbox"> |
+| Assignment | Feedback |
+| ---------- | -------- |
+| &check;    | &check;  | 
 
 ---
 

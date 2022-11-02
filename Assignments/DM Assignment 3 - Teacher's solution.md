@@ -1,4 +1,4 @@
-# Discrete Mathematics
+# Discrete Mathematics - Assignment 3 - Teacher's solution
 Peergrade Solution 3
 
 ## 1

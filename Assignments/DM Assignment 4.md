@@ -10,19 +10,23 @@
 
 # Assignment 4
 
-| Assignment              | Feedback                |
-| ----------------------- | ----------------------- |
-| <input type="checkbox"> | <input type="checkbox"> |
+| Assignment | Feedback                |
+| ---------- | ----------------------- |
+| &check;    | <input type="checkbox"> |
 
 ---
 
-## Assignment text
+## [[DM Assignment 4 - Description|Description]]
 
 ---
 
-## Solution
+## [[DM Assignment 4 - Solution|Solution]]
 
 ---
 
-## [[DM Assignment 4 - Extra]]
+## [[DM Assignment 4 - Teacher's solution|Teacher's solution]]
+
+---
+
+## [[DM Assignment 4 - Extra|Extra]]
 
