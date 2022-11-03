@@ -7,19 +7,23 @@
 
 #### a) **List three elements that are in the range of $f$**
 ##### Solution
-$$ \eqalign{
-f(2)&=2*2-5 \\
-&=4-5 \\
-&=-1 \\
+
+$$
+\eqalign{
+f(2) & = 2*2-5 \\
+& = 4-5 \\
+& = -1 \\
 }$$
 
-$$ \eqalign{
+$$
+\eqalign{
 f(3)&=2*3-5 \\
 &=6-5 \\
 &=1 \\
 }$$
 
-$$ \eqalign{
+$$
+\eqalign{
 f(4)&=2*4-5 \\
 &=8-5 \\
 &=3 \\
@@ -78,14 +82,18 @@ $\square$
 Let $F$ be a function from a set $X$ to a set $Y$. $F$ is onto (or surjective) if, and only if, given any element $y \in Y$, there exists an element $x \in X$ with the property $y = F(x)$.
 
 Symbolically:
-$$F: X \rightarrow Y \text{ is onto } \iff \forall y \in Y, \exists x \in X \text{ such that } F(x) = y$$
+
+$$
+F: X \rightarrow Y \text{ is onto } \iff \forall y \in Y, \exists x \in X \text{ such that } F(x) = y
+$$
 
 ---
 #### d) **Write an explicit formula for the composition $f \circ f$**
 ##### Solution
 (Composing function $f$ with itself)
 
-$$\eqalign{
+$$
+\eqalign{
 (f \circ f)(n) &= f(f(n)) \\
 &= f(2n - 5) \\
 &= 2(2n - 5) - 5 \\
@@ -94,7 +102,10 @@ $$\eqalign{
 }$$
 
 Thus, the explicit formula for the composition is the following:
-$$f \circ f = 4n - 15$$
+
+$$
+f \circ f = 4n - 15
+$$
 
 ## 2
 ### Description
@@ -114,7 +125,8 @@ $$
 Theorem 5.1.1
 If $a_m, a_{m+1}, a_{m+2}, \ldots$ and $b_m, b_{m+1}, b_{m+2}, \ldots$ are sequences of real numbers and $c$ is any real number, then the following equations hold for any integer $n \geq m$:
 
-$$\eqalign{
+$$
+\eqalign{
 &\sum_{k=m}^n a_k + \sum_{k=m}^n b_k &= \sum_{k=m}^n \left(a_k+b_k \right) \\
 &c \cdot \sum_{k=m}^n a_k &= \sum_{k=m}^n c \cdot a_k \quad \tag{by generalized distributive law} \\
 &\left(\prod_{k=m}^n a_k\right) \cdot\left(\prod_{k=m}^n b_k\right) &= \prod_{k=m}^n \left(a_k \cdot b_k\right)
@@ -124,7 +136,8 @@ $$\eqalign{
 Example:
 Given sequences $a_k = k$ and $b_k = 2 k + 1$, simplifying an expression $\sum_{k=m}^{n} a_k + 2\cdot \sum_{k=m}^{n} b_k$ could be done in the following way:
 
-$$\eqalign{
+$$
+\eqalign{
 \sum_{k=m}^n a_k+2 \cdot \sum_{k=m}^n b_k &= \sum_{k=m}^n k+2 \cdot \sum_{k=m}^n(2 k+1) \hspace7ex &\text{by (substitution)} \\
 &=\sum_{k=m}^n k+\sum_{k=m}^n 2 \cdot(2 k+1) &\text{by (2)} \\
 &=\sum_{k=m}^n k+\sum_{k=m}^n(4 k+2) &\text{by (algebraic simplification)}\\
@@ -135,7 +148,8 @@ $$\eqalign{
 ---
 ##### Solution (a)
 
-$$\eqalign{
+$$
+\eqalign{
 \sum_{k=m}^{n} a_k - 3 \cdot \sum_{k=m}^{n} b_k &= \sum_{k=m}^{n} 2k - 5 - 3 \cdot \sum_{k=m}^{n} 2 - k \hspace7ex &\text{by (substitution)} \\
 &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -3 \cdot (2 - k) &\text{by (2)}\\
 &= \sum_{k=m}^{n} 2k - 5 \cdot \sum_{k=m}^{n} -6 + 3k &\text{by (algebraic simplification)} \\
@@ -146,7 +160,8 @@ $$\eqalign{
 ---
 ##### Solution (b)
 
-$$\eqalign{
+$$
+\eqalign{
 \prod_{k=m}^{n} a_k  \cdot \prod_{k=m}^n b_k &= \prod_{k=m}^{n} 2k - 5 \cdot \prod_{k=m}^n 2 - k \hspace7ex &\text{by (substitution)} \\
 &= \prod_{k=m}^{n} (2k - 5) \cdot (2 - k) &\text{by (3)} \\
 &= \prod_{k=m}^{n} (9k-2k^2-10) &\text{by (algebraic simplification)}
