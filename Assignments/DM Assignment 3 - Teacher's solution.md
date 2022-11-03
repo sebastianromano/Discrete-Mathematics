@@ -76,11 +76,18 @@ $$\eqalign{
 
 ## 3
 Proof by mathematical induction: Let property $P(n)$ be the sentence
-$$n^3 + 5n - 6 \text{ is divisible by 3}$$
+
+$$
+n^3 + 5n - 6 \text{ is divisible by 3}
+$$
 
 We will prove that $P(n)$ is true for all integers $n\geq 0$.
 1. Base case: Show that $P(0)$ is true.
-	$$P(0) \text{ is true because } 0^3+5\cdot0-6 = -6 \text{ and -6 is divisible by 3}$$
+	
+	$$
+	P(0) \text{ is true because } 0^3+5\cdot0-6 = -6 \text{ and -6 is divisible by 3}
+	$$
+	
 2. Inductive step: 
 	Show that for every integer $k \geq 0$, if  $P(k)$ is true, then $P(k+1)$ is true. Let k be any integer with $k \geq 0$, and suppose $k^3 + 5k - 6$ is divisible by 3 (this is the inductive hypothesis). By the definition of divisibility, this means that $k^3 + 5k - 6 = 3r$ for some integer r. We must show that $(k+1)^3 + 5(k+1) -6$ is divisible by 3. We can use the binomial theorem for exponent 3 and rewrite $P(k+1)$ as
 	
@@ -92,7 +99,9 @@ We will prove that $P(n)$ is true for all integers $n\geq 0$.
     (Option 1:) 
     We can rewrite the expression as:
     
-    $$k^3 + 5k - 6 + 3k^2 + 3k + 6 = k^3 + 5k - 6 + 3(k^2+k+2)$$
+    $$
+    k^3 + 5k - 6 + 3k^2 + 3k + 6 = k^3 + 5k - 6 + 3(k^2+k+2)
+    $$
     
     From our inductive hypothesis we know that $k^3 + 5k - 6$ is divisible by 3. Using the definition of divisibility (if $3|b$, then $b=3r$), we can conclude that 3 divides $3(k^2+k+2)$. Using the fact that given $a \,| b$ and $a \,| c$, we can conclude $a \,| (b + c)$ for all integers $a,b,c$, we see that 3 divides the sum $k^3 + 5k - 6 + 3(k^2+k+2)$.
     
