@@ -5,6 +5,7 @@
 
 ## 1
 Let $A = \{1, 2, 3, 4, 5, 6\}$ and let $R$ be a relation on $A$ defined as follows:
+
 $$m\,R\,n \quad \Leftrightarrow \quad 2 \mid (m+n) \qquad \text{for all } m,n \in A$$
 
 ### 1a)
@@ -49,16 +50,27 @@ List three strings that are in $S$ and three strings that are not in $S$.
 
 ### 2b)
 Let the sequence $a_0, a_1, a_2,\dots$ be recursively defined as follows:
-$$a_n= \begin{cases}0 & \text { if } n=0 \\ a_{n-1}+2 n+3 & \text { if } n>0\end{cases}$$
+
+$$
+a_{n} = \begin{cases} 0 & \text { if } n=0 \\
+a_{n-1}+2 n+3 & \text{ if } n>0 \\
+\end{cases}
+$$
 
 Using mathematical induction, prove that this sequence satisfies the following equation: 
-$$a_n = n(n+4) \qquad \text{for all integers } n \ge 0$$
+
+$$
+a_{n} = n(n+4) \qquad \text{ for all integers } n \ge 0
+$$
 
 ---
 
 ## 3
 Let $R$ be a relation on $\mathbb{Z}$ defined as follows:
-$$m\,R\,n\quad \Leftrightarrow \quad m^2 - n^2 \geq 0 \qquad \text{for all } m,n \in \mathbb{Z}$$
+
+$$
+m\,R\,n\quad \Leftrightarrow \quad m^2 - n^2 \geq 0 \qquad \text{for all } m,n \in \mathbb{Z}
+$$
 
 ### 3a)
 Is $R$ reflexive?
@@ -75,5 +87,6 @@ Is $R$ antisymmetric?
 Justify each of your answers by providing either a proof or a counterexample.
 
 You may use the following property of integers: 
-$\text{For all } a, b, c \in \mathbb{Z} \text{if } a \geq b \text{ and } b \geq c \text{ then } a \geq c$
+
+$$\text{For all } a, b, c \in \mathbb{Z} \text{if } a \geq b \text{ and } b \geq c \text{ then } a \geq c$$
 

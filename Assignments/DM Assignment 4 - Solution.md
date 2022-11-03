@@ -23,6 +23,7 @@
 
 Basis step
 Let $n=0$. It is known that the sequence can be recursively defined as $a_0=0$. Finding out if the above equation holds for $a_n$ when $n=0$ is the base step: 
+
 $$
 \begin{align*}
 a_{n} & = n(n+4)\\
@@ -32,15 +33,19 @@ $$
 
 Inductive step
 Let $n > 0$. Let's assume that the equation $a_n=n(n+4)$ is true for $n=n$.
+
 $$
 a_n=n(n+4)
 $$
+
 In order to prove this by mathematical induction, it's necessary to prove that it holds for $n=n+1$
+
 $$
 a_{n+1}=(n+1)((n+1)+4)
 $$
 
 Step-by-step transformation
+
 $$
 \begin{array}{rlr}
 a_{n+1} & =a_n+2(n+1)+3 & \text { (by the recurrence relation) } \\
@@ -49,7 +54,9 @@ a_{n+1} & =a_n+2(n+1)+3 & \text { (by the recurrence relation) } \\
 & =n^2+6n+5 & \text { (associativity and commutativity)}
 \end{array}
 $$
+
 Now simplifying both sides of the equation to confirm that they do indeed come to the same expression
+
 $$
 \begin{array}{rlr}
 (n+1)((n+1)+4) & = (n+1)(n+5) & \text{ (by distributivity)}\\
@@ -57,7 +64,9 @@ $$
 & = n^{2}+6n+5
 \end{array}
 $$
+
 Thus, by mathematical induction, the above proof shows that the sequence satisfies the equation: 
+
 $$a_n = n(n+4) \qquad \text{for all integers } n \ge 0$$
 
 ---
@@ -67,6 +76,7 @@ $$a_n = n(n+4) \qquad \text{for all integers } n \ge 0$$
 ### 3a)
 $R$ is reflexive. 
 In order to prove this, the definition (page 495, DM)
+
 $$
 R \text{ is reflexive } \iff \forall x \in \mathbb{Z},  x R x
 $$
