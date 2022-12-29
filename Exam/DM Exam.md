@@ -12,8 +12,10 @@
 - Exam
 	- 4 hours written exam 
 	- no aids (except pen, pocket calculator)
+	- You cannot bring the book
 
 - [Exams from previous years](https://learnit.itu.dk/mod/page/view.php?id=159063)
 	- [ ] Check
 
 ## Date
+- 21st Dec, 9:00 - 13:00
